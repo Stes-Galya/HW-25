@@ -1,0 +1,41 @@
+.container{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        
+       
+    
+}
+.list{
+position: relative;
+}
+.list-item:nth-child(1){
+background-color: rgb(234, 115, 115);
+width: 100px;
+height: 100px;
+position:absolute;
+top: 300px;
+left: 300px;
+}
+.list-item:nth-child(2){
+    background-color: rgb(75, 100, 181);
+    width: 100px;
+    height: 100px;
+    position:absolute;
+top: 350px;
+left: 350px;
+z-index: 1;
+}
+.list-item:nth-child(3){
+    background-color: rgb(65, 156, 65);
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top: 400px;
+    left: 400px;
+   
+}
+
+.list-item{
+
+}
